@@ -1,7 +1,7 @@
 #!/bin/bash
 
 array=( $( ls . ) )
-base=("docker.sh" "python.sh" "yay.sh")
+base=("docker.sh" "python.sh" "yay.sh" "build.sh")
 
 for i in ${base[@]}
 do
